@@ -42,6 +42,9 @@
                                         <h6 class="fw-semibold mb-0">Id</h6>
                                     </th>
                                     <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Araç Resmi</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
                                         <h6 class="fw-semibold mb-0">Marka/Model</h6>
                                     </th>
                                     <th class="border-bottom-0">
@@ -61,6 +64,13 @@
                                 <tr>
                                         <td class="border-bottom-0"><h6 class="fw-semibold mb-0">@item.Id</h6></td>
                                     <td class="border-bottom-0">
+                                        <img src="@item.ImageUrl"
+                                             alt="@item.Marka"
+                                             width="120"
+                                             height="70"
+                                             style="object-fit:cover;border-radius:8px;" />
+                                    </td>
+                                        <td class="border-bottom-0">
                                             <h6 class="fw-semibold mb-1">@item.Marka</h6>
                                             <span class="fw-normal">@item.Model</span>
                                     </td>
