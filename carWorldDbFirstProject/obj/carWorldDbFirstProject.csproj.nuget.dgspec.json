@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\2DbFirstMVCProject\\carWorldDbFirstProject\\carWorldDbFirstProject\\carWorldDbFirstProject.csproj": {}
+    "C:\\Users\\eylul\\Documents\\GitHub\\02-CarBook\\carWorldDbFirstProject\\carWorldDbFirstProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\2DbFirstMVCProject\\carWorldDbFirstProject\\carWorldDbFirstProject\\carWorldDbFirstProject.csproj": {
+    "C:\\Users\\eylul\\Documents\\GitHub\\02-CarBook\\carWorldDbFirstProject\\carWorldDbFirstProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\2DbFirstMVCProject\\carWorldDbFirstProject\\carWorldDbFirstProject\\carWorldDbFirstProject.csproj",
+        "projectUniqueName": "C:\\Users\\eylul\\Documents\\GitHub\\02-CarBook\\carWorldDbFirstProject\\carWorldDbFirstProject.csproj",
         "projectName": "carWorldDbFirstProject",
-        "projectPath": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\2DbFirstMVCProject\\carWorldDbFirstProject\\carWorldDbFirstProject\\carWorldDbFirstProject.csproj",
+        "projectPath": "C:\\Users\\eylul\\Documents\\GitHub\\02-CarBook\\carWorldDbFirstProject\\carWorldDbFirstProject.csproj",
         "packagesPath": "C:\\Users\\eylul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\2DbFirstMVCProject\\carWorldDbFirstProject\\carWorldDbFirstProject\\obj\\",
+        "outputPath": "C:\\Users\\eylul\\Documents\\GitHub\\02-CarBook\\carWorldDbFirstProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,6 +52,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[8.6.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[10.0.9, )"
@@ -71,6 +75,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.9, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2026.6.1, )"
             }
           },
           "imports": [

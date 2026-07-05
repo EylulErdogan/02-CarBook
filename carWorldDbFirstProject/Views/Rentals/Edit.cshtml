@@ -1,0 +1,65 @@
+﻿@model carWorldDbFirstProject.Models.Rentals
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+
+            <h5 class="card-title fw-semibold mb-4">Kiralama Güncelle</h5>
+
+            <div class="card">
+                <div class="card-body">
+
+                    <form asp-action="Edit">
+
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="MusteriId" class="form-label">Müşteri</label>
+                            <select asp-for="MusteriId" class="form-control" asp-items="ViewBag.MusteriId">
+                                <option value="">Müşteri Seçiniz</option>
+                            </select>
+                            <span asp-validation-for="MusteriId" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="AracId" class="form-label">Araç</label>
+                            <select asp-for="AracId" class="form-control" asp-items="ViewBag.AracId">
+                                <option value="">Araç Seçiniz</option>
+                            </select>
+                            <span asp-validation-for="AracId" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="BaslangicTarihi" class="form-label">Teslim Alma Tarihi</label>
+                            <input asp-for="BaslangicTarihi" type="date" class="form-control" />
+                            <span asp-validation-for="BaslangicTarihi" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="BitisTarihi" class="form-label">Teslim Etme Tarihi</label>
+                            <input asp-for="BitisTarihi" type="date" class="form-control" />
+                            <span asp-validation-for="BitisTarihi" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            Güncelle
+                        </button>
+
+                        <a asp-action="Index" class="btn btn-secondary ms-2">
+                            Listeye Dön
+                        </a>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

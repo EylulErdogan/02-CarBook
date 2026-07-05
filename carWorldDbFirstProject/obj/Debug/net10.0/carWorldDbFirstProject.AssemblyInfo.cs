@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("carWorldDbFirstProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da63d4eddf20e51fe878b3f8b28d96b9a9c0bc8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6cc4c1033cd2d1ac88530b6f2ac2f9f55de25e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("carWorldDbFirstProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("carWorldDbFirstProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
